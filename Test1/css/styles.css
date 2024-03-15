@@ -1,0 +1,49 @@
+body {
+    font-family: var(--body-font);
+    line-height: 1.5;
+    background-image: var(--body-gradient);
+    min-height: 100vh;
+    border: px solid #fff;
+    color: var(--color-light);
+}
+
+/**************** header da página ****************/
+
+.header-page {
+    border: px solid #fff;
+    width: 95%;
+    margin: auto;
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Logo {
+    border: px solid #e5ff00;
+}
+
+.header-page ul{
+    border: px solid firebrick;
+    display: flex;
+    gap: 32px;
+
+}
+
+/**************** fim header da página ***********/
+main{
+    border: 0px solid firebrick;
+    padding-top: 48px;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+img{
+    border: 0px solid #e5ff00;
+    width: 30%;
+    height: 30%;
+    margin-top: 32px;
+    object-fit: cover;
+    border-radius: 20px;  
+}
